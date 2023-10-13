@@ -62,6 +62,7 @@ public class ViewAccountJPanel extends javax.swing.JPanel {
         btnback = new javax.swing.JButton();
         btnUpdate = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
         jPanel1.setEnabled(false);
         jPanel1.setPreferredSize(new java.awt.Dimension(900, 600));
 
