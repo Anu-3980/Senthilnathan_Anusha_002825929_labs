@@ -63,6 +63,8 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
         txtAccountNumber = new javax.swing.JTextField();
         btnBack = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(255, 204, 204));
+
         tblAccounts.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

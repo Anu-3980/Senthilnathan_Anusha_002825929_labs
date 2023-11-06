@@ -40,7 +40,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        jPanel1.setBackground(new java.awt.Color(255, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
 
         btnAccountMng.setText("Account Manager");
         btnAccountMng.addActionListener(new java.awt.event.ActionListener() {
@@ -68,6 +68,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setTopComponent(jPanel1);
 
+        userProcessContainer.setBackground(new java.awt.Color(255, 204, 204));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(userProcessContainer);
 
